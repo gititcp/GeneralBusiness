@@ -13,15 +13,11 @@ allprojects {
 }
 
 二、Module下的build.gradle文件下添加
-
 dependencies {
-          compile 'com.github.gititcp:GeneralBusiness:1.0.0'
-}
-
-或者
-
-dependencies {
-          implementation 'com.github.gititcp:GeneralBusiness:1.0.0'
+        implementation 'com.github.gititcp.GeneralBusiness:businessconversionlib:1.0.4'
+        implementation 'com.github.gititcp.GeneralBusiness:countdownlib:1.0.4'
+        implementation 'com.github.gititcp.GeneralBusiness:masklib:1.0.4'
+        implementation 'com.github.gititcp.GeneralBusiness:pollerlib:1.0.4'
 }
 
 ## 核心业务
