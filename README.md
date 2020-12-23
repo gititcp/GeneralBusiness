@@ -15,13 +15,13 @@ allprojects {
 二、Module下的build.gradle文件下添加
 
 dependencies {
-          compile 'com.github.Lvluffy:GeneralBusiness:1.0.0'
+          compile 'com.github.gititcp:GeneralBusiness:1.0.0'
 }
 
 或者
 
 dependencies {
-          implementation 'com.github.Lvluffy:GeneralBusiness:1.0.0'
+          implementation 'com.github.gititcp:GeneralBusiness:1.0.0'
 }
 
 ## 核心业务
